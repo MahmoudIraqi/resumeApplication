@@ -1,0 +1,87 @@
+<!-- Header -->
+<header class="header pull-left">
+
+    <!-- Mobile menu -->
+    <div class="mobile-bar visible-sm visible-xs">
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+        </div>
+    </div>
+    <!-- Mobile menu end -->
+
+    <div class="LanguageSwitch">
+        <label>{{ 'Language' | translate }} </label>
+        <select #langSelect (click)="switchLanguage(langSelect.value)" class="select select2">
+            <option value="en">En</option>
+            <option value="ar">Ar</option>
+        </select>
+    </div>
+
+    <div class="avatar">
+        <!-- <img src="../../../assets/img/Pic2.png" alt="Profile Picture"> -->
+         <img src="http://placehold.it/165x165" alt="Profile Pic">
+    </div>
+
+    <div class="name">
+        <h1>{{ 'Name' | translate }}</h1>
+        <span>{{ 'Title' | translate }}</span>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="social-icons">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/mahmoud.osary">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/OsaryIraqi">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/mahmoud-iraqi-575b0399/">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.behance.net/MahmoudIraQi">
+                    <i class="fa fa-behance" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/mahmoudosary/">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- Social Icons end -->
+
+    <!-- Navigation bar -->
+    <nav class="main-nav">
+        <ul class="navigation">
+            <li>
+                <a [routerLink]="['/welcome']" routerLinkActive="active">{{ 'Objective' | translate }}</a>
+            </li>
+            <li>
+                <a [routerLink]="['/about']" routerLinkActive="active">{{ 'About' | translate }}</a>
+            </li>
+            <li>
+                <a [routerLink]="['/resume']" routerLinkActive="active">{{ 'Resume' | translate }}</a>
+            </li>
+            <li>
+                <a [routerLink]="['/works']" routerLinkActive="active">{{ 'Works' | translate }}</a>
+            </li>
+            <li>
+                <a [routerLink]="['/contact']" routerLinkActive="active">{{ 'Conatct' | translate }}</a>
+            </li>
+        </ul>
+
+
+    </nav>
+    <!-- Navigation bar end -->
+
+</header>
+<!-- Header end -->
