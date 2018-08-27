@@ -33,7 +33,7 @@ Description: CV, Resume, vCard HTML Template
 body {
     color: #1a1a1a;
     background-color: #0C0C0C;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif !important;
     overflow-x: hidden;
 }
 
@@ -682,6 +682,27 @@ li {
     margin: 15px 0;
 }
 
+.about .skills .item {
+    margin-bottom: 20px;
+}
+
+.about .skills .item .skill-info {
+    margin-bottom: 15px;
+}
+
+.about .skills .item .skill-info h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px !important;
+    margin: 0;
+}
+
+.about .skills .item .skill-info span {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #9C9C9C;
+}
+
 
 /*-----------------------------------------------------------------*/
 /*                      SECTION FUN FACTS                          */
@@ -814,7 +835,7 @@ li {
 
 .resume .skills .item .skill-info h3 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 14px;
+    font-size: 14px !important;
     margin: 0;
 }
 
@@ -1019,6 +1040,43 @@ li {
 /*-----------------------------------------------------------------*/
 /*                      SECTION WORKS                              */
 /*-----------------------------------------------------------------*/
+
+.works .nav-tabs .nav-item{
+    background: #0c4979;
+    margin-right: 2px;
+    padding: 5px 15px !important;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.works .nav-tabs .nav-item:hover, .works .nav-tabs .nav-item.active {
+    background: #fff;
+    border: 1px solid #0c4979;
+    border-bottom: none;
+}
+
+.works .nav-tabs .nav-item a{
+    color: #fff;
+    cursor: pointer;
+    background: none !important;
+    border: none !important;
+}
+
+.works .nav-tabs .nav-item:hover a, .works .nav-tabs .nav-item.active a{
+    color:  #0c4979;
+    font-weight: bolder;
+}
+
+.BtnsForMore {
+    position: absolute;
+    top: 90px;
+    width: calc(100% - 20px);
+}
+
+.BtnsForMore button{
+    width: 50%;
+    float: left;
+}
+
 .works .control {
     margin-bottom: 30px;
 }
@@ -1058,7 +1116,7 @@ li {
     list-style: none;
     margin: 0 -1px;
     overflow: hidden;
-    padding: 0;
+    padding: 20px 0px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
@@ -1073,7 +1131,7 @@ li {
 .works .item-outer .item {
     margin-bottom: 2px;
     overflow: hidden;
-    height: 193px;
+    height: 285px;
     position: relative;
 }
 
@@ -1171,7 +1229,7 @@ li {
 }
 
 .works .item-outer .item .overlay {
-    background: rgba(12,12,12,0.85);
+    background: rgba(19, 80, 124, 0.8);
     height: 100%;
     left: 0;
     opacity: 0;
@@ -1222,6 +1280,59 @@ li {
 .works .item-outer .mix {
     padding: 5px;
 }
+
+.works section {
+    padding: 20px 15px;
+}
+
+  .works #gallery .row {
+    margin-bottom: 10px;
+  }
+  .works .gallery-item {
+    overflow: hidden;
+    padding: 1px;
+    transition: all 200ms ;
+    position: relative;
+  }
+  .works .gallery-item img {
+    width: 100%;
+    height: auto;
+  }
+  .works .gallery-item:hover img,
+  .works .gallery-item:hover .overlay {
+    transform: translateY(-20px);
+  }
+  .works .gallery-item,
+  .works .gallery-item img,
+  .works .overlay {
+    transition: transform 200ms, opacity 200ms;
+  }
+  .works .overlay {
+    background-color: #75C5F0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    bottom: -70%;
+    padding: 15px 10px;
+  }
+  .works .overlay span {
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.03vw;
+    display: block;
+    letter-spacing: 0.08em;
+    text-align: center
+  }
+  .works .overlay span.tags {
+    font-weight: 100;
+    font-size: 0.8em;
+  }
+  .works .hidden {
+    display: none;
+  }
+  
 
 /*-----------------------------------------------------------------*/
 /*                      SECTION TESTIMONIALS                       */

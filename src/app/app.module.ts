@@ -4,6 +4,7 @@ import {AppRoutes} from './app.route';
 import {RouterModule} from '@angular/router';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TabsModule } from 'ngx-bootstrap/tabs';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppComponent } from './app.component';
@@ -36,6 +37,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserModule,
     RouterModule.forRoot(AppRoutes),
     HttpClientModule,
+    TabsModule.forRoot(),
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
