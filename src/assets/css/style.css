@@ -179,6 +179,7 @@ li {
 }
 
 .header .LanguageSwitch {
+    display: none;
     position: absolute;
     top: 15px;
     left: 0px;
