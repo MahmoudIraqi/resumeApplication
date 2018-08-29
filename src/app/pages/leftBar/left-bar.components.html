@@ -1,14 +1,6 @@
 <!-- Header -->
 <header class="header pull-left">
 
-    <!-- Mobile menu -->
-    <div class="mobile-bar visible-sm visible-xs">
-        <div class="hamburger-menu">
-            <div class="bar"></div>
-        </div>
-    </div>
-    <!-- Mobile menu end -->
-
     <div class="LanguageSwitch">
         <label>{{ 'Language' | translate }} </label>
         <select #langSelect (click)="switchLanguage(langSelect.value)" class="select select2">

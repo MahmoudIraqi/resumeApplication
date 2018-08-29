@@ -1,0 +1,292 @@
+/*-----------------------------------------------------------------*/
+/*                      RESPONSIVE                                  */
+/*-----------------------------------------------------------------*/
+
+@media only screen and (max-width: 991px) {
+    /* .wrapper {
+        width: 100%;
+    }
+
+    .header {
+        -ms-transform: translateX(-260px);
+        -webkit-transform: translateX(-260px);
+        transform: translateX(-260px);
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+
+    .pushed {
+        -ms-transform: translateX(0);
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    .main-content {
+        width: 100%;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+        transition: all .3s ease-in-out;
+    }
+
+    .main-pushed {
+        -ms-transform: translateX(260px);
+        -webkit-transform: translateX(260px);
+        transform: translateX(260px);
+    }
+    .works .item-outer .item {
+        height: 280px;
+    } */
+}
+
+@media only screen and (max-width: 767px) {
+    /* .welcome {
+        padding: 60px !important;
+    }
+
+    .welcome .quote {
+        width: initial;
+    }
+
+    .facts .fact-item {
+        margin-bottom: 20px;
+    }
+
+    .resume .resume-item {
+        margin-top: 30px !important;
+    }
+
+    .blog .item .text {
+        margin-top: 25px;
+    } */
+}
+
+@media only screen and (max-height: 600px) {
+    /* .header .name {
+        margin: 15px 0;
+    }
+
+    .header .main-nav ul li {
+        padding-bottom: 10px;
+    }
+
+    .header .social-icons {
+        margin: 0 0 15px;
+    }
+
+    .header .copyright {
+        bottom: -18px;
+        position: relative;
+    } */
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* .works .item-outer .mix {
+        width: 50%;
+    } */
+}
+
+@media only screen and (max-width: 480px) {
+    /* .main-content section {
+        padding: 60px 30px;
+    } */
+}
+
+
+/*  -------------  IraQi Responsive ------------------- */
+
+@media only screen and (max-width: 425px){
+    .header {
+        transform: translateX(0px);
+        padding: 0px;
+        height: 22vh;
+        width: 100%;
+    }
+
+    .header .LanguageSwitch {
+        padding: 7px;
+    }
+
+    .header .LanguageSwitch label {
+        display: none;
+    }
+
+    .header .avatar {
+        width: 70px;
+        height: 70px;
+        position: absolute;
+        top: -15px;
+        left: 69px;
+    }
+
+    .header .name {
+        margin: 25px 0;
+        width: 50%;
+        float: left;
+        margin-left: 135px;
+    }
+
+    .header .social-icons {
+        margin: 15px;
+    width: 10%;
+    float: right;
+    }
+
+    .header .social-icons ul li {
+        display: block;
+        padding: 0 1px 0 0;
+        text-align: right;
+    }
+
+    .header .main-nav {
+        position: absolute;
+    bottom: 4px;
+    left: 20px;
+    }
+
+    .header .main-nav ul li {
+        padding-bottom: 10px;
+    float: left;
+    margin-right: 20px;
+    }
+
+    .header .main-nav ul li:last-child {
+    margin-right: 0px;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+    .main-content section {
+        padding: 60px 24px;
+    }
+
+    .main-content section:first-child {
+        padding: 160px 24px 10px 24px;
+    }
+
+    .welcome {
+        padding: 15px !important;
+    }
+
+    .welcome .quote {
+        width: 100%;
+    }
+
+    .welcome .quote h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .about .intro ul.info {
+        height: 110px;
+    }
+
+    .about .intro ul.info li {
+        width: 100%;
+    }
+
+    section.facts {
+        padding-top: 40px;
+    }
+
+    .timeline > li > .timeline-badge {
+        z-index: 4;
+    }
+
+    ul.timeline:before {
+        left: 15px;
+    }
+
+    ul.timeline > li > .timeline-badge, .timeline > li.timeline-inverted > .timeline-badge {
+        left: 3px;
+    }
+
+    .resume .skills .item .skill-info span, .about .skills .item .skill-info span {
+        color: #052a47;
+        position: absolute;
+        right: 27px;
+        top: 33px;
+    }
+
+    .works .nav-tabs .nav-item {
+        padding: 5px 13px !important;
+    }
+
+    .works .item-outer .item {
+        height: 377px;
+    }
+
+    .works .item-outer .item img {
+        width: 100%;
+    }
+
+    /* ------- General Class ----------- */
+
+    .noPaddingRow {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .header .name {
+        width: 47%;
+    }
+    
+    .header .name h1 {
+        font-size: 18px;
+    }
+
+    .header .name span {
+        font-size: 12px;
+    }
+
+    .header .main-nav ul li a {
+        font-size: 11px;
+    }
+
+    .header .social-icons {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+
+    .header .name {
+        width: 45%;
+        margin-left: 134px;
+    }
+
+    .header .social-icons {
+        margin: 15px 4px 15px;
+    }
+
+    .header .name h1 {
+        font-size: 18px;
+    }
+
+    .header .name span {
+        font-size: 10px;
+    }
+
+    .header .main-nav ul li {
+        margin-right: 17px;
+    }
+
+    .header .main-nav ul li a {
+        font-size: 9px;
+    }
+
+    .main-content section {
+        padding: 60px 10px;
+    }
+
+    .main-content section:first-child {
+        padding: 160px 10px 10px 10px;
+    }
+
+}

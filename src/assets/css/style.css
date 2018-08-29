@@ -54,6 +54,10 @@ li {
     padding: 0 0 10px;
 }
 
+.noMarginRow {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
 /*-----------------------------------------------------------------*/
 /*                      PRELOADER                                  */
 /*-----------------------------------------------------------------*/
@@ -1585,99 +1589,4 @@ li {
 .scrollConatiner {
     max-height: 100vh;
     overflow: auto;
-}
-
-/*-----------------------------------------------------------------*/
-/*                      RESPONSIVE                                  */
-/*-----------------------------------------------------------------*/
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    .works .item-outer .mix {
-        width: 50%;
-    }
-}
-
-@media only screen and (max-width: 991px) {
-    .wrapper {
-        width: 100%;
-    }
-
-    .header {
-        -ms-transform: translateX(-260px);
-        -webkit-transform: translateX(-260px);
-        transform: translateX(-260px);
-        -webkit-transition: all .3s ease-in-out;
-        -moz-transition: all .3s ease-in-out;
-        -o-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
-    }
-
-    .pushed {
-        -ms-transform: translateX(0);
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-
-    .main-content {
-        width: 100%;
-        -webkit-transition: all .3s ease-in-out;
-        -moz-transition: all .3s ease-in-out;
-        -o-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
-    }
-
-    .main-pushed {
-        -ms-transform: translateX(260px);
-        -webkit-transform: translateX(260px);
-        transform: translateX(260px);
-    }
-    .works .item-outer .item {
-        height: 280px;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .welcome {
-        padding: 60px !important;
-    }
-
-    .welcome .quote {
-        width: initial;
-    }
-
-    .facts .fact-item {
-        margin-bottom: 20px;
-    }
-
-    .resume .resume-item {
-        margin-top: 30px !important;
-    }
-
-    .blog .item .text {
-        margin-top: 25px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .main-content section {
-        padding: 60px 30px;
-    }
-}
-
-@media only screen and (max-height: 600px) {
-    .header .name {
-        margin: 15px 0;
-    }
-
-    .header .main-nav ul li {
-        padding-bottom: 10px;
-    }
-
-    .header .social-icons {
-        margin: 0 0 15px;
-    }
-
-    .header .copyright {
-        bottom: -18px;
-        position: relative;
-    }
 }
