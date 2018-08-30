@@ -14,7 +14,6 @@
     .header .avatar {
         width: 110px;
         height: 110px;
-        margin-top: 60px;
     }
     
     .main-content section {
@@ -52,20 +51,22 @@
         height: 70px;
         position: absolute;
         top: -15px;
-        left: 69px;
+    left: 30px;
     }
 
     .header .name {
         margin: 25px 0;
         width: 50%;
         float: left;
-        margin-left: 135px;
+        margin-left: 120px;
     }
 
     .header .social-icons {
         margin: 15px;
     width: 10%;
-    float: right;
+    position: absolute;
+    right: 3px;
+    top: -2px;
     }
 
     .header .social-icons ul li {
@@ -76,8 +77,8 @@
 
     .header .main-nav {
         position: absolute;
-    bottom: 4px;
-    left: 20px;
+        bottom: 0px;
+        left: 20px;
     }
 
     .header .main-nav ul li {
@@ -186,11 +187,15 @@
     }
 
     .header .social-icons {
-        margin: 10px;
+        margin: 8px;
     }
 }
 
 @media only screen and (max-width: 320px){
+
+    .header {
+        height: 28vh;
+    }
 
     .header .name {
         width: 45%;
