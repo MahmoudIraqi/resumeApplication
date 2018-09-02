@@ -609,7 +609,7 @@ li {
 
 .welcome .quote h2 {
     /* color: #0c4979; */
-    color: #fff;
+    color: #b8c3c3;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
     font-weight: 400;
@@ -820,10 +820,11 @@ li {
     position: absolute;
     right: 0;
     top: -12px;
-    background: #0C0C0C;
+    background: #164f7c;
     color: #FFF;
     padding: 5px 10px;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .resume .skills .item {

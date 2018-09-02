@@ -35,7 +35,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(AppRoutes),
+    RouterModule.forRoot(AppRoutes,{useHash: true}),
     HttpClientModule,
     TabsModule.forRoot(),
     TranslateModule.forRoot({

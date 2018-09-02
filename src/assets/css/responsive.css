@@ -1,6 +1,53 @@
 /*-----------------------------------------------------------------*/
 /*                      RESPONSIVE                                  */
 /*-----------------------------------------------------------------*/
+
+@media only screen and (max-width: 854px){ 
+    .header {
+        padding: 15px;
+    }
+
+    .header .name h1 {
+        font-size: 20px;
+    }
+
+    .header .avatar {
+        width: 110px;
+        height: 110px;
+        margin-top: 0px; 
+    }
+
+    .header .name {
+        margin: 15px 0 5px;
+    }
+
+    .header .name span {
+        font-size: 13px;
+    }
+
+    .header .social-icons {
+        margin: 0 0 10px;
+    }
+
+    .header .main-nav ul li {
+        padding-bottom: 8px;
+    }
+    
+    .main-content section {
+        padding: 60px 24px;
+    }
+
+    .about .intro ul.info {
+        height: 120px;
+    }
+
+    .about .intro ul.info li {
+        width: 100%;
+    }
+
+}
+
+
 @media only screen and (max-width: 768px){
 
     .header {
@@ -30,12 +77,298 @@
 
 }
 
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 767px){
     .header {
         transform: translateX(0px);
-        padding: 0px;
-        height: 22vh;
+    padding: 0px;
+    height: 150px;
+    width: 100%;
+    }
+
+    .header .LanguageSwitch {
+        padding: 7px;
+    }
+
+    .header .LanguageSwitch label {
+        display: none;
+    }
+
+    .header .avatar {
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .header .name {
+        margin: 25px 0px 4px;
+    width: 70%;
+    float: left;
+    margin-left: 25px;
+    }
+
+    .header .social-icons {
+        margin: 0px 0 16px 225px;
+        width: 35%;
+        float: left;
+    }
+
+    .header .social-icons ul li {
+        padding: 0 1px 0 0;
+        float: left;
+        margin-right: 8px;
+    }
+
+    .header .social-icons ul li:last-child {
+        margin-right: 0px;
+    }
+
+    .header .main-nav {
+        float: left;
+        clear: both;
+        width: 80%;
+        margin-left: 20%;
+        margin-right: auto;
+    }
+
+    .header .main-nav ul li {
+        padding-bottom: 10px;
+        float: left;
+        margin-right: 10%;
+    }
+
+    .header .main-nav ul li:last-child {
+    margin-right: 0px;
+    }
+
+    .main-content {
         width: 100%;
+    }
+
+
+    .main-content section:first-child {
+        padding: 200px 24px 10px 24px;
+    }
+
+    .welcome {
+        padding: 15px !important;
+    }
+
+    .welcome .quote {
+        width: 100%;
+    }
+
+    .welcome .quote h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .about .intro ul.info {
+        height: 110px;
+    }
+
+    .about .intro ul.info li {
+        width: 100%;
+    }
+
+    section.facts {
+        padding-top: 40px;
+    }
+
+    .timeline > li > .timeline-badge {
+        z-index: 4;
+    }
+
+    ul.timeline:before {
+        left: 15px;
+    }
+
+    ul.timeline > li > .timeline-badge, .timeline > li.timeline-inverted > .timeline-badge {
+        left: 3px;
+    }
+
+    .resume .skills .item .skill-info span, .about .skills .item .skill-info span {
+        color: #052a47;
+        position: absolute;
+        right: 27px;
+        top: 33px;
+    }
+
+    .works .nav-tabs .nav-item {
+        padding: 5px 13px !important;
+    }
+
+    .works .item-outer .item {
+        height: 377px;
+    }
+
+    .works .item-outer .item img {
+        width: 100%;
+    }
+
+    /* ------- General Class ----------- */
+
+    .noPaddingRow {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .noMarginRow {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .header {
+        transform: translateX(0px);
+    padding: 0px;
+    height: 150px;
+    width: 100%;
+    }
+
+    .header .LanguageSwitch {
+        padding: 7px;
+    }
+
+    .header .LanguageSwitch label {
+        display: none;
+    }
+
+    .header .avatar {
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+
+    .header .name {
+        margin: 25px 0px 4px;
+    width: 70%;
+    float: left;
+    margin-left: 25px;
+    }
+
+    .header .social-icons {
+        margin: 0px 0 16px 29%;
+        width: 35%;
+        float: left;
+    }
+
+    .header .social-icons ul li {
+        padding: 0 1px 0 0;
+        float: left;
+        margin-right: 8px;
+    }
+
+    .header .social-icons ul li:last-child {
+        margin-right: 0px;
+    }
+
+    .header .main-nav {
+        float: left;
+        clear: both;
+        width: 75%;
+        margin-left: 20%;
+        margin-right: auto;
+    }
+
+    .header .main-nav ul li {
+        padding-bottom: 10px;
+        float: left;
+        margin-right: 8%;
+    }
+
+    .header .main-nav ul li:last-child {
+    margin-right: 0px;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+
+    .main-content section:first-child {
+        padding: 200px 24px 10px 24px;
+    }
+
+    .welcome {
+        padding: 15px !important;
+    }
+
+    .welcome .quote {
+        width: 100%;
+    }
+
+    .welcome .quote h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .about .intro ul.info {
+        height: 110px;
+    }
+
+    .about .intro ul.info li {
+        width: 100%;
+    }
+
+    section.facts {
+        padding-top: 40px;
+    }
+
+    .timeline > li > .timeline-badge {
+        z-index: 4;
+    }
+
+    ul.timeline:before {
+        left: 15px;
+    }
+
+    ul.timeline > li > .timeline-badge, .timeline > li.timeline-inverted > .timeline-badge {
+        left: 3px;
+    }
+
+    .resume .skills .item .skill-info span, .about .skills .item .skill-info span {
+        color: #052a47;
+        position: absolute;
+        right: 27px;
+        top: 33px;
+    }
+
+    .works .nav-tabs .nav-item {
+        padding: 5px 13px !important;
+    }
+
+    .works .item-outer .item {
+        height: 377px;
+    }
+
+    .works .item-outer .item img {
+        width: 100%;
+    }
+
+    /* ------- General Class ----------- */
+
+    .noPaddingRow {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .noMarginRow {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .header {
+        transform: translateX(0px);
+    padding: 0px;
+    height: 150px;
+    width: 100%;
     }
 
     .header .LanguageSwitch {
@@ -49,42 +382,45 @@
     .header .avatar {
         width: 70px;
         height: 70px;
-        position: absolute;
-        top: -15px;
-    left: 30px;
+        float: left;
+        margin-left: 30px;
     }
 
     .header .name {
-        margin: 25px 0;
-        width: 50%;
-        float: left;
-        margin-left: 120px;
+        margin: 25px 0px 4px;
+    width: 50%;
+    float: left;
+    margin-left: 25px;
     }
 
     .header .social-icons {
-        margin: 15px;
-    width: 10%;
-    position: absolute;
-    right: 3px;
-    top: -2px;
+        margin: 0px 0 16px 90px;
+        width: 35%;
+        float: left;
     }
 
     .header .social-icons ul li {
-        display: block;
         padding: 0 1px 0 0;
-        text-align: right;
+        float: left;
+        margin-right: 8px;
+    }
+
+    .header .social-icons ul li:last-child {
+        margin-right: 0px;
     }
 
     .header .main-nav {
-        position: absolute;
-        bottom: 0px;
-        left: 20px;
+        float: initial;
+        clear: both;
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .header .main-nav ul li {
         padding-bottom: 10px;
-    float: left;
-    margin-right: 20px;
+        float: left;
+        margin-right: 7%;
     }
 
     .header .main-nav ul li:last-child {
@@ -97,7 +433,149 @@
 
 
     .main-content section:first-child {
-        padding: 160px 24px 10px 24px;
+        padding: 200px 24px 10px 24px;
+    }
+
+    .welcome {
+        padding: 15px !important;
+    }
+
+    .welcome .quote {
+        width: 100%;
+    }
+
+    .welcome .quote h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .about .intro ul.info {
+        height: 110px;
+    }
+
+    .about .intro ul.info li {
+        width: 100%;
+    }
+
+    section.facts {
+        padding-top: 40px;
+    }
+
+    .timeline > li > .timeline-badge {
+        z-index: 4;
+    }
+
+    ul.timeline:before {
+        left: 15px;
+    }
+
+    ul.timeline > li > .timeline-badge, .timeline > li.timeline-inverted > .timeline-badge {
+        left: 3px;
+    }
+
+    .resume .skills .item .skill-info span, .about .skills .item .skill-info span {
+        color: #052a47;
+        position: absolute;
+        right: 27px;
+        top: 33px;
+    }
+
+    .works .nav-tabs .nav-item {
+        padding: 5px 13px !important;
+    }
+
+    .works .item-outer .item {
+        height: 377px;
+    }
+
+    .works .item-outer .item img {
+        width: 100%;
+    }
+
+    /* ------- General Class ----------- */
+
+    .noPaddingRow {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .noMarginRow {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .header {
+        transform: translateX(0px);
+    padding: 0px;
+    height: 150px;
+    width: 100%;
+    }
+
+    .header .LanguageSwitch {
+        padding: 7px;
+    }
+
+    .header .LanguageSwitch label {
+        display: none;
+    }
+
+    .header .avatar {
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-left: 30px;
+    }
+
+    .header .name {
+        margin: 25px 0px 4px;
+    width: 50%;
+    float: left;
+    margin-left: 25px;
+    }
+
+    .header .social-icons {
+        margin: 0px 0 16px 70px;
+        width: 35%;
+        float: left;
+    }
+
+    .header .social-icons ul li {
+        padding: 0 1px 0 0;
+        float: left;
+        margin-right: 8px;
+    }
+
+    .header .social-icons ul li:last-child {
+        margin-right: 0px;
+    }
+
+    .header .main-nav {
+        float: initial;
+        clear: both;
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header .main-nav ul li {
+        padding-bottom: 10px;
+        float: left;
+        margin-right: 15px;
+    }
+
+    .header .main-nav ul li:last-child {
+    margin-right: 0px;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+
+    .main-content section:first-child {
+        padding: 200px 24px 10px 24px;
     }
 
     .welcome {
@@ -186,24 +664,14 @@
         font-size: 11px;
     }
 
-    .header .social-icons {
-        margin: 8px;
-    }
+    
 }
 
 @media only screen and (max-width: 320px){
 
-    .header {
-        height: 28vh;
-    }
-
     .header .name {
         width: 45%;
-        margin-left: 134px;
-    }
-
-    .header .social-icons {
-        margin: 15px 4px 15px;
+        margin-left: 52px;
     }
 
     .header .name h1 {
@@ -224,10 +692,6 @@
 
     .main-content section {
         padding: 60px 10px;
-    }
-
-    .main-content section:first-child {
-        padding: 160px 10px 10px 10px;
     }
 
 }
