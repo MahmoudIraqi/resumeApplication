@@ -8,7 +8,11 @@ import { ResumeComponents } from './pages/mainSide/Resume/resume.components';
 import { WorksComponents } from './pages/mainSide/Works/works.components';
 import { ContactComponents } from './pages/mainSide/Contact/contact.components';
 
-export const AppRoutes: Routes = [{
+export const AppRoutes: Routes = [{ 
+    path: '', 
+    redirectTo: '/welcome', 
+    pathMatch: 'full' 
+},{
     path: '',
     component: WelcomeMessageComp
 }, {
