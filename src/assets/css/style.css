@@ -1210,8 +1210,10 @@ li {
 .works .item-outer .item .title span {
     color: #DDD;
     display: block;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 100;
+    margin-top: 20px;
+    line-height: 30px;
     -ms-transform: translateY(220px);
     -webkit-transform: translateY(220px);
     transform: translateY(220px);
