@@ -1,7 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '../../../../../node_modules/@angular/forms';
 import { Http, Headers, Response, URLSearchParams } from '@angular/http';
-import 'rxjs/add/operator/toPromise';
 
 @Component({
   selector: 'Contact-comp',
@@ -48,15 +47,7 @@ export class ContactComponents implements OnInit {
     params.set('subject', this.userData.userMajor);
     params.set('content',  this.userData.userPhone + this.userData.userMessage );
 
-    return this.http.post(url, params)
-                    .toPromise()
-                    .then( res => {
-                      console.log(res)
-                    })
-                    .catch(err => {
-                      console.log(err)
-                    })
-
+    return this.http.post(url, params).subscribe();
   }
 
   ngOnInit() {
