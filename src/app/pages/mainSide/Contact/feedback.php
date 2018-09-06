@@ -8,7 +8,7 @@ $First_Name = check_input( $_POST["Name"] );
 $Email    = check_input($_POST["Mail"]);
 $PhoneNumber  = check_input($_POST["PhoneNum"]);
 $Enquiry = check_input($_POST["Message"]);
-$subject = " Contact  for Wepex " ;
+$subject = " Contact  for MahmoudIraQi " ;
 //qsuburb
 
 /* If e-mail is not valid show error message */

@@ -6,6 +6,8 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { LeftBarComponent } from './pages/leftBar/left-bar.component';
@@ -37,6 +39,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserModule,
     RouterModule.forRoot(AppRoutes,{useHash: true}),
     HttpClientModule,
+    FormsModule,
+    HttpModule,
     TabsModule.forRoot(),
     TranslateModule.forRoot({
       loader: {

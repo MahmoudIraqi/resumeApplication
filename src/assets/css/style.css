@@ -1593,3 +1593,16 @@ li {
     max-height: 100vh;
     overflow: auto;
 }
+
+.helpBlock {
+    width: 100%;
+    BACKGROUND: #fc5252;
+    margin-top: 2px;
+    padding: 5px 11px;
+    border-radius: 6px;
+}
+
+.helpBlock span{
+    color: #fff;
+    font-size: 12px;
+}
