@@ -627,7 +627,8 @@
     }
 
     .works .item-outer .item {
-        height: 377px;
+        max-height: 377px;
+        height: auto;
     }
 
     .works .item-outer .item img {
