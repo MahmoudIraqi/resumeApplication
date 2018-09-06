@@ -664,6 +664,9 @@
         font-size: 11px;
     }
 
+    .works .nav-tabs .nav-item {
+        padding: 4px 4px !important;
+    }
     
 }
 
@@ -692,6 +695,10 @@
 
     .main-content section {
         padding: 60px 10px;
+    }
+
+    .works .nav-tabs .nav-item a{
+        padding: 10px 10px;
     }
 
 }
