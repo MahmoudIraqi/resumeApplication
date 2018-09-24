@@ -9,46 +9,39 @@
             
             <div class="row">
                 <div class="col-xs-12">
-                    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
-
-                        <div class="row"><!-- Row -->
-        
+                    <form #f="ngForm">
+                        <div class="row"> <!-- Row -->
                             <div class="col-xs-12"><!-- Name input -->
                                 <div class="form-group">
                                     <input type="text" ngModel #name="ngModel" class="form-control" name="Name" id="InputName" placeholder="Your Name" required>
                                     <div class="helpBlock" *ngIf="!name.valid && name.touched"><span> ** Please insert valid data</span></div>
                                 </div>
                             </div>
-        
                             <div class="col-xs-12"><!-- Email input -->
                                 <div class="form-group">
                                     <input type="email" ngModel class="form-control" id="InputEmail" name="Mail" placeholder="Your Email" required>
                                 </div>
                             </div>
-        
                             <div class="col-xs-12"><!-- Phone input -->
                                 <div class="form-group">
                                     <input type="text" ngModel class="form-control" name="PhoneNum" id="InputPhone" placeholder="Phone (optional)" required>
                                 </div>
                             </div>
-        
                             <div class="col-xs-12"><!-- Subject input -->
                                 <div class="form-group">
                                     <select class="select select2 form-control" ngModel name="majorSelect" required>
-                                            <option disabled selected>select --</option>
+                                        <!-- <option disabled selected>-- select --</option> -->
                                         <option value="graphicDesign">Graphic Design</option>
                                         <option value="websitesDesign">Websites</option>
                                         <option value="applicationDesign">Applications</option>
                                     </select>
                                 </div>
                             </div>
-        
                             <div class="col-xs-12"><!-- Message textarea -->
                                 <div class="form-group">
                                     <textarea name="Message" ngModel id="InputMessage" class="form-control" rows="6" placeholder="Message"></textarea>
                                 </div>
                             </div>
-        
                         </div><!-- Row end -->
         
                         <input type="submit" class="btn btn-primary" [disabled]="!f.valid"><!-- Send Button -->
