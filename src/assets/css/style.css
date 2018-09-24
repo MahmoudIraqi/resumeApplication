@@ -960,7 +960,12 @@ li {
 .timeline-heading h4 {
     font-weight: 400;
     padding: 0 15px;
-    color: #4679bd;
+    color: #0c4979;
+}
+.timeline-heading h6 {
+    font-weight: 200;
+    padding: 0 15px;
+    color: #666;
 }
 .timeline-body > p, .timeline-body > ul {
     padding: 10px 15px;
