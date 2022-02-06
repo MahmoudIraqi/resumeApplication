@@ -168,7 +168,7 @@ li {
 /*                      HEADER                                     */
 /*-----------------------------------------------------------------*/
 .header {
-    background: #0c4979; 
+    background: #0c4979;
     padding: 46px;
     position: absolute;
     height: 100vh;
@@ -191,7 +191,7 @@ li {
 .header .LanguageSwitch label{
     color: #666;
     font-size: 12px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 .header .LanguageSwitch select{
@@ -660,7 +660,7 @@ li {
 .about .intro ul.info li span{
     color: #666;
     font-weight: bold;
-    width: 90px;
+    width: 160px;
     display: inline-block;
 }
 
@@ -1345,7 +1345,7 @@ li {
   .works .hidden {
     display: none;
   }
-  
+
 
 /*-----------------------------------------------------------------*/
 /*                      SECTION TESTIMONIALS                       */
