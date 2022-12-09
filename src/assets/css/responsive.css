@@ -2,716 +2,651 @@
 /*                      RESPONSIVE                                  */
 /*-----------------------------------------------------------------*/
 
-@media only screen and ( min-width: 1024px )  {
-    .works .item-outer .item {
-        height: auto;
-    }
+@media only screen and ( min-width: 1024px ) {
+  .works .item-outer .item {
+    height: auto;
+  }
 }
 
-@media only screen and (max-width: 854px){ 
-    .header {
-        padding: 15px;
-    }
+@media only screen and (max-width: 854px) {
+  .header {
+    padding: 15px;
+  }
 
-    .header .name h1 {
-        font-size: 20px;
-    }
+  .header .name h1 {
+    font-size: 20px;
+  }
 
-    .header .avatar {
-        width: 110px;
-        height: 110px;
-        margin-top: 0px; 
-    }
+  .header .avatar {
+    width: 110px;
+    height: 110px;
+    margin-top: 0px;
+  }
 
-    .header .name {
-        margin: 15px 0 5px;
-    }
+  .header .name {
+    margin: 15px 0 5px;
+  }
 
-    .header .name span {
-        font-size: 13px;
-    }
+  .header .name span {
+    font-size: 13px;
+  }
 
-    .header .social-icons {
-        margin: 0 0 10px;
-    }
+  .header .social-icons {
+    margin: 0 0 10px;
+  }
 
-    .header .main-nav ul li {
-        padding-bottom: 8px;
-    }
-    
-    .main-content section {
-        padding: 60px 24px;
-    }
+  .main-content section {
+    padding: 60px 24px;
+  }
 
-    .about .intro ul.info {
-        height: 120px;
-    }
+  .about .intro ul.info {
+    height: 120px;
+  }
 
-    .about .intro ul.info li {
-        width: 100%;
-    }
+  .about .intro ul.info li {
+    width: 100%;
+  }
 
 }
 
+@media only screen and (max-width: 768px) {
 
-@media only screen and (max-width: 768px){
+  .header {
+    padding: 15px;
+  }
 
-    .header {
-        padding: 15px;
-    }
+  .header .name h1 {
+    font-size: 20px;
+  }
 
-    .header .name h1 {
-        font-size: 20px;
-    }
+  .header .avatar {
+    width: 110px;
+    height: 110px;
+  }
 
-    .header .avatar {
-        width: 110px;
-        height: 110px;
-    }
-    
-    .main-content section {
-        padding: 60px 24px;
-    }
+  .main-content section {
+    padding: 60px 24px;
+  }
 
-    .about .intro ul.info {
-        height: 120px;
-    }
+  .about .intro ul.info {
+    height: 120px;
+  }
 
-    .about .intro ul.info li {
-        width: 100%;
-    }
+  .about .intro ul.info li {
+    width: 100%;
+  }
 
 }
 
-@media only screen and (max-width: 767px){
-    .header {
-        transform: translateX(0px);
+@media only screen and (max-width: 767px) {
+  .header {
+    transform: translateX(0px);
     padding: 0px;
     height: 150px;
     width: 100%;
-    }
+  }
 
-    .header .LanguageSwitch {
-        padding: 7px;
-    }
+  .header .LanguageSwitch {
+    padding: 7px;
+  }
 
-    .header .LanguageSwitch label {
-        display: none;
-    }
+  .header .LanguageSwitch label {
+    display: none;
+  }
 
-    .header .avatar {
-        width: 100px;
-        height: 100px;
-        float: left;
-        margin-left: 30px;
-        margin-top: 15px;
-    }
+  .header .avatar {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
 
-    .header .name {
-        margin: 25px 0px 4px;
+  .header .name {
+    margin: 25px 0px 4px;
     width: 70%;
     float: left;
     margin-left: 25px;
-    }
+  }
 
-    .header .social-icons {
-        margin: 0px 0 16px 225px;
-        width: 35%;
-        float: left;
-    }
+  .header .social-icons {
+    margin: 0px 0 16px 225px;
+    width: 35%;
+    float: left;
+  }
 
-    .header .social-icons ul li {
-        padding: 0 1px 0 0;
-        float: left;
-        margin-right: 8px;
-    }
+  .header .social-icons ul li {
+    padding: 0 1px 0 0;
+    float: left;
+    margin-right: 8px;
+  }
 
-    .header .social-icons ul li:last-child {
-        margin-right: 0px;
-    }
-
-    .header .main-nav {
-        float: left;
-        clear: both;
-        width: 80%;
-        margin-left: 20%;
-        margin-right: auto;
-    }
-
-    .header .main-nav ul li {
-        padding-bottom: 10px;
-        float: left;
-        margin-right: 10%;
-    }
-
-    .header .main-nav ul li:last-child {
+  .header .social-icons ul li:last-child {
     margin-right: 0px;
-    }
+  }
 
-    .main-content {
-        width: 100%;
-    }
+  .header .main-nav {
+    float: left;
+    clear: both;
+    width: 80%;
+    margin-left: 20%;
+    margin-right: auto;
+  }
 
+  .header .main-nav ul li:last-child {
+    margin-right: 0px;
+  }
 
-    .main-content section:first-child {
-        padding: 200px 24px 10px 24px;
-    }
+  .main-content {
+    width: 100%;
+  }
 
-    .welcome {
-        padding: 15px !important;
-    }
+  .welcome {
+    padding: 15px !important;
+  }
 
-    .welcome .quote {
-        width: 100%;
-    }
+  .welcome .quote {
+    width: 100%;
+  }
 
-    .welcome .quote h2 {
-        font-size: 20px;
-        line-height: 30px;
-    }
+  .welcome .quote h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 
-    .about .intro ul.info {
-        height: 110px;
-    }
+  .about .intro ul.info {
+    height: 110px;
+  }
 
-    .about .intro ul.info li {
-        width: 100%;
-    }
+  .about .intro ul.info li {
+    width: 100%;
+  }
 
-    section.facts {
-        padding-top: 40px;
-    }
+  section.facts {
+    padding-top: 40px;
+  }
 
-    .timeline > li > .timeline-badge {
-        z-index: 4;
-    }
+  .timeline > li > .timeline-badge {
+    z-index: 4;
+  }
 
-    ul.timeline:before {
-        left: 15px;
-    }
+  ul.timeline:before {
+    left: 15px;
+  }
 
-    ul.timeline > li > .timeline-badge, .timeline > li.timeline-inverted > .timeline-badge {
-        left: 3px;
-    }
+  ul.timeline > li > .timeline-badge, .timeline > li.timeline-inverted > .timeline-badge {
+    left: 3px;
+  }
 
-    .resume .skills .item .skill-info span, .about .skills .item .skill-info span {
-        color: #052a47;
-        position: absolute;
-        right: 27px;
-        top: 33px;
-    }
+  .resume .skills .item .skill-info span, .about .skills .item .skill-info span {
+    color: #052a47;
+    position: absolute;
+    right: 27px;
+    top: 33px;
+  }
 
-    .works .nav-tabs .nav-item {
-        padding: 5px 13px !important;
-    }
+  .works .nav-tabs .nav-item {
+    padding: 5px 13px !important;
+  }
 
-    .works .item-outer .item {
-        height: 377px;
-    }
+  /* ------- General Class ----------- */
+  .noPaddingRow {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 
-    .works .item-outer .item img {
-        width: 100%;
-    }
-
-    /* ------- General Class ----------- */
-
-    .noPaddingRow {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-
-    .noMarginRow {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
+  .noMarginRow {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
 }
 
-@media only screen and (max-width: 640px){
-    .header {
-        transform: translateX(0px);
+@media only screen and (max-width: 640px) {
+  .header {
+    transform: translateX(0px);
     padding: 0px;
     height: 150px;
     width: 100%;
-    }
+  }
 
-    .header .LanguageSwitch {
-        padding: 7px;
-    }
+  .header .LanguageSwitch {
+    padding: 7px;
+  }
 
-    .header .LanguageSwitch label {
-        display: none;
-    }
+  .header .LanguageSwitch label {
+    display: none;
+  }
 
-    .header .avatar {
-        width: 100px;
-        height: 100px;
-        float: left;
-        margin-left: 30px;
-        margin-top: 15px;
-    }
+  .header .avatar {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
 
-    .header .name {
-        margin: 25px 0px 4px;
+  .header .name {
+    margin: 25px 0px 4px;
     width: 70%;
     float: left;
     margin-left: 25px;
-    }
+  }
 
-    .header .social-icons {
-        margin: 0px 0 16px 29%;
-        width: 35%;
-        float: left;
-    }
+  .header .social-icons {
+    margin: 5px 0 7px 144px;
+    width: 35%;
+    float: left;
+  }
 
-    .header .social-icons ul li {
-        padding: 0 1px 0 0;
-        float: left;
-        margin-right: 8px;
-    }
+  .header .social-icons ul li {
+    padding: 0 1px 0 0;
+    float: left;
+    margin-right: 8px;
+  }
 
-    .header .social-icons ul li:last-child {
-        margin-right: 0px;
-    }
-
-    .header .main-nav {
-        float: left;
-        clear: both;
-        width: 75%;
-        margin-left: 20%;
-        margin-right: auto;
-    }
-
-    .header .main-nav ul li {
-        padding-bottom: 10px;
-        float: left;
-        margin-right: 8%;
-    }
-
-    .header .main-nav ul li:last-child {
+  .header .social-icons ul li:last-child {
     margin-right: 0px;
-    }
+  }
 
-    .main-content {
-        width: 100%;
-    }
+  .header .main-nav {
+    float: left;
+    clear: both;
+    width: 75%;
+    margin-left: 20%;
+    margin-right: auto;
+  }
 
+  .header .main-nav ul {
+    flex-direction: row;
+  }
 
-    .main-content section:first-child {
-        padding: 200px 24px 10px 24px;
-    }
+  .header .main-nav ul li:last-child {
+    margin-right: 0px;
+  }
 
-    .welcome {
-        padding: 15px !important;
-    }
+  .main-content {
+    width: 100%;
+  }
 
-    .welcome .quote {
-        width: 100%;
-    }
+  .welcome {
+    padding: 15px !important;
+  }
 
-    .welcome .quote h2 {
-        font-size: 20px;
-        line-height: 30px;
-    }
+  .welcome .quote {
+    width: 100%;
+  }
 
-    .about .intro ul.info {
-        height: 110px;
-    }
+  .welcome .quote h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 
-    .about .intro ul.info li {
-        width: 100%;
-    }
+  .about .intro ul.info {
+    height: 110px;
+  }
 
-    section.facts {
-        padding-top: 40px;
-    }
+  .about .intro ul.info li {
+    width: 100%;
+  }
 
-    .timeline > li > .timeline-badge {
-        z-index: 4;
-    }
+  section.facts {
+    padding-top: 40px;
+  }
 
-    ul.timeline:before {
-        left: 15px;
-    }
+  .timeline > li > .timeline-badge {
+    z-index: 4;
+  }
 
-    ul.timeline > li > .timeline-badge, .timeline > li.timeline-inverted > .timeline-badge {
-        left: 3px;
-    }
+  ul.timeline:before {
+    left: 15px;
+  }
 
-    .resume .skills .item .skill-info span, .about .skills .item .skill-info span {
-        color: #052a47;
-        position: absolute;
-        right: 27px;
-        top: 33px;
-    }
+  ul.timeline > li > .timeline-badge, .timeline > li.timeline-inverted > .timeline-badge {
+    left: 3px;
+  }
 
-    .works .nav-tabs .nav-item {
-        padding: 5px 13px !important;
-    }
+  .resume .skills .item .skill-info span, .about .skills .item .skill-info span {
+    color: #052a47;
+    position: absolute;
+    right: 27px;
+    top: 33px;
+  }
 
-    .works .item-outer .item {
-        height: 377px;
-    }
+  .works .nav-tabs .nav-item {
+    padding: 5px 13px !important;
+  }
 
-    .works .item-outer .item img {
-        width: 100%;
-    }
+  /* ------- General Class ----------- */
+  .noPaddingRow {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 
-    /* ------- General Class ----------- */
-
-    .noPaddingRow {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-
-    .noMarginRow {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
+  .noMarginRow {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
 }
 
-@media only screen and (max-width: 480px){
-    .header {
-        transform: translateX(0px);
+@media only screen and (max-width: 504px) {
+  .header {
+    transform: translateX(0px);
     padding: 0px;
     height: 150px;
     width: 100%;
-    }
+  }
 
-    .header .LanguageSwitch {
-        padding: 7px;
-    }
+  .header .LanguageSwitch {
+    padding: 7px;
+  }
 
-    .header .LanguageSwitch label {
-        display: none;
-    }
+  .header .LanguageSwitch label {
+    display: none;
+  }
 
-    .header .avatar {
-        width: 70px;
-        height: 70px;
-        float: left;
-        margin-left: 30px;
-    }
+  .header .avatar {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 13px;
+  }
 
-    .header .name {
-        margin: 25px 0px 4px;
+  .header .name {
+    margin: 25px 0px 4px;
     width: 50%;
     float: left;
-    margin-left: 25px;
-    }
+    margin-left: 54px;
+  }
 
-    .header .social-icons {
-        margin: 0px 0 16px 90px;
-        width: 35%;
-        float: left;
-    }
+  .header .social-icons {
+    margin: 0px 0 16px 90px;
+    width: 35%;
+    float: left;
+  }
 
-    .header .social-icons ul li {
-        padding: 0 1px 0 0;
-        float: left;
-        margin-right: 8px;
-    }
+  .header .social-icons ul li {
+    padding: 0 1px 0 0;
+    float: left;
+    margin-right: 8px;
+  }
 
-    .header .social-icons ul li:last-child {
-        margin-right: 0px;
-    }
-
-    .header .main-nav {
-        float: initial;
-        clear: both;
-        width: 84%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .header .main-nav ul li {
-        padding-bottom: 10px;
-        float: left;
-        margin-right: 7%;
-    }
-
-    .header .main-nav ul li:last-child {
+  .header .social-icons ul li:last-child {
     margin-right: 0px;
-    }
+  }
 
-    .main-content {
-        width: 100%;
-    }
+  .header .main-nav {
+    float: initial;
+    clear: both;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header .main-nav ul li:last-child {
+    margin-right: 0px;
+  }
+
+  .main-content {
+    width: 100%;
+  }
 
 
-    .main-content section:first-child {
-        padding: 200px 24px 10px 24px;
-    }
+  .main-content section:first-child {
+    padding: 40px 24px 10px 24px;
+  }
 
-    .welcome {
-        padding: 15px !important;
-    }
+  .welcome {
+    padding: 15px !important;
+  }
 
-    .welcome .quote {
-        width: 100%;
-    }
+  .welcome .quote {
+    width: 100%;
+  }
 
-    .welcome .quote h2 {
-        font-size: 20px;
-        line-height: 30px;
-    }
+  .welcome .quote h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 
-    .about .intro ul.info {
-        height: 110px;
-    }
+  .about .intro ul.info {
+    height: 110px;
+  }
 
-    .about .intro ul.info li {
-        width: 100%;
-    }
+  .about .intro ul.info li {
+    width: 100%;
+  }
 
-    section.facts {
-        padding-top: 40px;
-    }
+  section.facts {
+    padding-top: 40px;
+  }
 
-    .timeline > li > .timeline-badge {
-        z-index: 4;
-    }
+  .timeline > li > .timeline-badge {
+    z-index: 4;
+  }
 
-    ul.timeline:before {
-        left: 15px;
-    }
+  ul.timeline:before {
+    left: 15px;
+  }
 
-    ul.timeline > li > .timeline-badge, .timeline > li.timeline-inverted > .timeline-badge {
-        left: 3px;
-    }
+  ul.timeline > li > .timeline-badge, .timeline > li.timeline-inverted > .timeline-badge {
+    left: 3px;
+  }
 
-    .resume .skills .item .skill-info span, .about .skills .item .skill-info span {
-        color: #052a47;
-        position: absolute;
-        right: 27px;
-        top: 33px;
-    }
+  .resume .skills .item .skill-info span, .about .skills .item .skill-info span {
+    color: #052a47;
+    position: absolute;
+    right: 27px;
+    top: 33px;
+  }
 
-    .works .nav-tabs .nav-item {
-        padding: 5px 13px !important;
-    }
+  .works .nav-tabs .nav-item {
+    padding: 5px 13px !important;
+  }
 
-    .works .item-outer .item {
-        height: 377px;
-    }
+  .works .item-outer .item {
+    height: 377px;
+  }
 
-    .works .item-outer .item img {
-        width: 100%;
-    }
+  .works .item-outer .item img {
+    width: 100%;
+  }
 
-    /* ------- General Class ----------- */
+  /* ------- General Class ----------- */
+  .noPaddingRow {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 
-    .noPaddingRow {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-
-    .noMarginRow {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
+  .noMarginRow {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
 }
 
-@media only screen and (max-width: 425px){
-    .header {
-        transform: translateX(0px);
+@media only screen and (max-width: 425px) {
+  .header {
+    transform: translateX(0px);
     padding: 0px;
     height: 150px;
     width: 100%;
-    }
+  }
 
-    .header .LanguageSwitch {
-        padding: 7px;
-    }
+  .header .LanguageSwitch {
+    padding: 7px;
+  }
 
-    .header .LanguageSwitch label {
-        display: none;
-    }
+  .header .LanguageSwitch label {
+    display: none;
+  }
 
-    .header .avatar {
-        width: 70px;
-        height: 70px;
-        float: left;
-        margin-left: 30px;
-    }
+  .header .avatar {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 30px;
+  }
 
-    .header .name {
-        margin: 25px 0px 4px;
+  .header .name {
+    margin: 25px 0px 4px;
     width: 50%;
     float: left;
     margin-left: 25px;
-    }
+  }
 
-    .header .social-icons {
-        margin: 0px 0 16px 70px;
-        width: 35%;
-        float: left;
-    }
+  .header .social-icons {
+    margin: 0px 0 16px 70px;
+    width: 35%;
+    float: left;
+  }
 
-    .header .social-icons ul li {
-        padding: 0 1px 0 0;
-        float: left;
-        margin-right: 8px;
-    }
+  .header .social-icons ul li {
+    padding: 0 1px 0 0;
+    float: left;
+    margin-right: 8px;
+  }
 
-    .header .social-icons ul li:last-child {
-        margin-right: 0px;
-    }
-
-    .header .main-nav {
-        float: initial;
-        clear: both;
-        width: 84%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .header .main-nav ul li {
-        padding-bottom: 10px;
-        float: left;
-        margin-right: 15px;
-    }
-
-    .header .main-nav ul li:last-child {
+  .header .social-icons ul li:last-child {
     margin-right: 0px;
-    }
+  }
 
-    .main-content {
-        width: 100%;
-    }
+  .header .main-nav {
+    float: initial;
+    clear: both;
+    width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  .header .main-nav ul li:last-child {
+    margin-right: 0px;
+  }
 
-    .main-content section:first-child {
-        padding: 200px 24px 10px 24px;
-    }
+  .main-content {
+    width: 100%;
+  }
 
-    .welcome {
-        padding: 15px !important;
-    }
+  .welcome {
+    padding: 15px !important;
+  }
 
-    .welcome .quote {
-        width: 100%;
-    }
+  .welcome .quote {
+    width: 100%;
+  }
 
-    .welcome .quote h2 {
-        font-size: 20px;
-        line-height: 30px;
-    }
+  .welcome .quote h2 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 
-    .about .intro ul.info {
-        height: 110px;
-    }
+  .about .intro ul.info {
+    height: 110px;
+  }
 
-    .about .intro ul.info li {
-        width: 100%;
-    }
+  .about .intro ul.info li {
+    width: 100%;
+  }
 
-    section.facts {
-        padding-top: 40px;
-    }
+  section.facts {
+    padding-top: 40px;
+  }
 
-    .timeline > li > .timeline-badge {
-        z-index: 4;
-    }
+  .timeline > li > .timeline-badge {
+    z-index: 4;
+  }
 
-    ul.timeline:before {
-        left: 15px;
-    }
+  ul.timeline:before {
+    left: 15px;
+  }
 
-    ul.timeline > li > .timeline-badge, .timeline > li.timeline-inverted > .timeline-badge {
-        left: 3px;
-    }
+  ul.timeline > li > .timeline-badge, .timeline > li.timeline-inverted > .timeline-badge {
+    left: 3px;
+  }
 
-    .resume .skills .item .skill-info span, .about .skills .item .skill-info span {
-        color: #052a47;
-        position: absolute;
-        right: 27px;
-        top: 33px;
-    }
+  .resume .skills .item .skill-info span, .about .skills .item .skill-info span {
+    color: #052a47;
+    position: absolute;
+    right: 27px;
+    top: 33px;
+  }
 
-    .works .nav-tabs .nav-item {
-        padding: 5px 13px !important;
-    }
+  .works .nav-tabs .nav-item {
+    padding: 5px 13px !important;
+  }
 
-    .works .item-outer .item {
-        max-height: 377px;
-        height: auto;
-    }
+  .works .item-outer .item {
+    max-height: 377px;
+    height: auto;
+  }
 
-    .works .item-outer .item img {
-        width: 100%;
-    }
+  .works .item-outer .item img {
+    width: 100%;
+  }
 
-    /* ------- General Class ----------- */
+  /* ------- General Class ----------- */
+  .noPaddingRow {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 
-    .noPaddingRow {
-        padding-left: 0px !important;
-        padding-right: 0px !important;
-    }
-
-    .noMarginRow {
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
+  .noMarginRow {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
 }
 
-@media only screen and (max-width: 375px){
-    .header .name {
-        width: 47%;
-    }
-    
-    .header .name h1 {
-        font-size: 18px;
-    }
+@media only screen and (max-width: 375px) {
+  .header .name {
+    width: 47%;
+  }
 
-    .header .name span {
-        font-size: 12px;
-    }
+  .header .name h1 {
+    font-size: 18px;
+  }
 
-    .header .main-nav ul li a {
-        font-size: 11px;
-    }
+  .header .name span {
+    font-size: 12px;
+  }
 
-    .works .nav-tabs .nav-item {
-        padding: 4px 4px !important;
-    }
-    
+  .header .main-nav ul li a {
+    font-size: 11px;
+  }
+
+  .works .nav-tabs .nav-item {
+    padding: 4px 4px !important;
+  }
+
 }
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
 
-    .header .name {
-        width: 45%;
-        margin-left: 52px;
-    }
+  .header .name {
+    width: 45%;
+    margin-left: 52px;
+  }
 
-    .header .name h1 {
-        font-size: 18px;
-    }
+  .header .name h1 {
+    font-size: 18px;
+  }
 
-    .header .name span {
-        font-size: 10px;
-    }
+  .header .name span {
+    font-size: 10px;
+  }
 
-    .header .main-nav ul li {
-        margin-right: 17px;
-    }
+  .header .main-nav ul li a {
+    font-size: 9px;
+  }
 
-    .header .main-nav ul li a {
-        font-size: 9px;
-    }
+  .main-content section {
+    padding: 60px 10px;
+  }
 
-    .main-content section {
-        padding: 60px 10px;
-    }
+  .works .nav-tabs .nav-item {
+    padding: 4px 1px !important;
+  }
 
-    .works .nav-tabs .nav-item {
-        padding: 4px 1px !important;
-    }
+  .works .nav-tabs .nav-item a {
+    padding: 10px 10px;
+  }
 
-    .works .nav-tabs .nav-item a{
-        padding: 10px 10px;
-    }
-
-    
 
 }
