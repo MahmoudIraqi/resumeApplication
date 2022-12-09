@@ -251,7 +251,7 @@ li {
   padding: 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .header .social-icons ul li {
